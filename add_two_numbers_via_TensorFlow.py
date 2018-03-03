@@ -14,7 +14,7 @@ num2 = tf.Variable(intNum2)
 sum = tf.add(num1, num2)
 
 # note that this shows information about sum, but does NOT evaluate anything yet
-print(sum)
+print("sum = " + str(sum))
 
 # instantiate a global variables initializer
 globalVarsInitializer = tf.global_variables_initializer()
