@@ -15,7 +15,7 @@ num2 = tf.Variable(intNum2, name="num2")
 sum  = tf.add(num1, num2, name="sum")
 
 # note that this shows information about tensorSum, but does NOT evaluate anything yet
-print(sum)
+print("sum = " + str(sum))
 
 # instantiate a global variables initializer
 globalVarsInitializer = tf.global_variables_initializer()
