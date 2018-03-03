@@ -1,4 +1,4 @@
-# mnist_softmax.py
+# mnist_deep.py
 
 # original file from Google:
 # https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/tutorials/mnist/mnist_deep.py
